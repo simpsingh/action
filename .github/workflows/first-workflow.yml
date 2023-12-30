@@ -1,0 +1,15 @@
+# This is a basic workflow to help you get started with Actions
+
+name: first-worfklow
+
+# Controls when the workflow will run
+on: workflow_dispatch
+
+jobs:
+  first-job:
+    runs-on:  ubuntu-latest
+    steps: 
+      - name: Print greeting
+        run:  echo "Hello there, world!"
+      - name:  Goodbye greeting
+        run:  echo "Done - bye"
